@@ -12,6 +12,7 @@ RUN dnf update -y && \
     curl \
     net-tools \
     tar \
+    ncurses \
     sudo && \
     dnf clean all
 
